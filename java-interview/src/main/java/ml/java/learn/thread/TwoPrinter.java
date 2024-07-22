@@ -50,9 +50,11 @@ public class TwoPrinter {
     }
 
     public static void main(String[] args) {
-        Thread oddThread = new Thread(TwoPrinter::printOdd, "odd");
-        oddThread.start();
+
         Thread evenThread = new Thread(TwoPrinter::printEven, "even");
         evenThread.start();
+
+        Thread oddThread = new Thread(TwoPrinter::printOdd, "odd");
+        oddThread.start();
     }
 }
