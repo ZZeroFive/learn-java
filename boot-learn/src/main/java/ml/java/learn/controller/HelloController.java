@@ -19,8 +19,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping(value = "greet")
-    public Result<String> greet() {
-        String greet = "hello ";
+    public Result<String> greet( @RequestParam(required = true, name = "name") String name) {
+        String greet = "hello " + name;
+        log.info("用户请求参数信息: {}", name);
         return Result.ok(greet);
     }
 }
