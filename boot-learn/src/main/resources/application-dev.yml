@@ -1,6 +1,5 @@
 server:
-  port: 9991
-
+  port: 8080
 
 spring:
   application:
@@ -11,4 +10,4 @@ spring:
 ml:
   study:
     storage:
-      type: local
+      type: aliyun
