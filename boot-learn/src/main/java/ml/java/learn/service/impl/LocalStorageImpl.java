@@ -15,9 +15,8 @@ import javax.annotation.PostConstruct;
 
 
 
-@Service
 @Slf4j
-@Profile(value = "default")
+// @Profile(value = "default")
 public class LocalStorageImpl implements StorageService {
 
     @PostConstruct

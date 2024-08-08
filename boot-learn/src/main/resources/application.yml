@@ -12,3 +12,5 @@ ml:
   study:
     storage:
       type: local
+      uName: admin
+      pwd: 123123

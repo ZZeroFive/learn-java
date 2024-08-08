@@ -14,9 +14,8 @@ import javax.annotation.PostConstruct;
  */
 
 
-@Service
 @Slf4j
-@Profile("dev")
+// @Profile("dev")
 public class AliyunStorageImpl implements StorageService {
     @PostConstruct
     public void init() {

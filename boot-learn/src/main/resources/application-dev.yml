@@ -11,3 +11,5 @@ ml:
   study:
     storage:
       type: aliyun
+      uName: JML
+      pwd: JMLJML

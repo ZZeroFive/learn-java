@@ -11,3 +11,5 @@ ml:
   study:
     storage:
       type: huawei
+      uName: HW
+      pwd: HWHW

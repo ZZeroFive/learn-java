@@ -14,9 +14,9 @@ import javax.annotation.PostConstruct;
  */
 
 
-@Service
+
 @Slf4j
-@Profile(value = "test")
+// @Profile(value = "test")
 public class HuaWeiStorageImpl implements StorageService {
     @PostConstruct
     public void init() {
